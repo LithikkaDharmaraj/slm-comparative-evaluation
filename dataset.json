@@ -1,0 +1,562 @@
+[
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer answers the call",
+        "output": "Hi, this is Soniya calling from HDFC Bank. We have new loan offers at the lowest interest rate of 9.99 percent. Can I share the details with you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer accepts the initial offer",
+        "output": "Great! Are you salaried or self-employed?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they are not interested",
+        "output": "I completely understand. If you have multiple loans or credit card dues, we can consolidate everything into a single EMI. It's a free consultation. Would you like to hear more?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they are busy",
+        "output": "I understand you're busy. Just so you know, if you have multiple loans or credit card dues, we can consolidate them into one easy EMI. It's a free consultation. Can I briefly explain?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer asks who is calling",
+        "output": "I'm Soniya, calling from HDFC Bank. Can I share some loan offers with you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer agrees to consultation after objection",
+        "output": "Great! Are you salaried or self-employed?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer rejects the consultation with a second objection",
+        "output": "Alright, no worries at all. If you ever need to consolidate your loans in the future, please remember HDFC Bank. Thank you and have a good day."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they are salaried",
+        "output": "Great! Could you please share your company name, approximate salary, and whether you have any existing loans or credit cards?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they are self-employed",
+        "output": "Great! Could you please share your business name, the nature of your business, how many years you've been in business, and whether you have any existing loans?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer confirms having existing loans",
+        "output": "We can consolidate all your unsecured loans and credit cards into a single EMI at a lower interest rate. Our manager will call you to discuss the details. Thank you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they have no loans",
+        "output": "Our manager will give you a call to explain our new loan offers in detail. Thank you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says bye or hangs up",
+        "output": "Thank you. Have a good day."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer answers the call",
+        "output": "Am I speaking with [CUSTOMER_NAME]?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer asks who is calling",
+        "output": "I'm Meera, calling from Durva Finance Limited. Is [CUSTOMER_NAME] available on the line?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer response is unclear or filler",
+        "output": "Sorry, am I speaking with [CUSTOMER_NAME]?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer confirms identity",
+        "output": "Your disbursement amount of Rupees [AMOUNT_IN_WORDS], after deducting fees and charges, has been credited to your [BANK_NAME] account. Just to confirm, have you received the amount?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer confirms receipt of amount",
+        "output": "Great. Your first due date is [DUE_DATE]. If you need any assistance, please call our helpline number [HELPLINE_NUMBER_SPELLED]. Thank you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer denies receipt of amount",
+        "output": "I'm sorry for the inconvenience. To resolve this, please call our helpline number [HELPLINE_NUMBER_SPELLED]. Thank you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Third party answers the call",
+        "output": "That's alright, no problem. Could you please let [CUSTOMER_NAME] know that the disbursement amount from Durva Finance, after fees and charges, has been credited to their [BANK_NAME] account? Please ask them to check their bank account."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer asks for helpline number",
+        "output": "Please note down our number: [HELPLINE_NUMBER_SPELLED]."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer asks about payment or tenure",
+        "output": "I'm sorry, for details regarding that, please call our helpline number [HELPLINE_NUMBER_SPELLED]."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says thanks or bye",
+        "output": "Thank you so much. Have a good day."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer answers the call",
+        "output": "Hello, I'm calling from Auto Bazaar. You had enquired about the [BRAND] [MODEL] auto on our app. Is that correct?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says it is the wrong person",
+        "output": "Oh, I'm sorry. It seems I've called the wrong number. Thank you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer confirms enquiry",
+        "output": "Great! The [BRAND] [MODEL] model currently runs on [FUEL_TYPE] fuel. It can carry up to [PASSENGER_CAPACITY] passengers, and you'll get approximately [MILEAGE] kilometers mileage. It's a very good vehicle for daily commercial use. What purpose are you planning to use it for?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they want to use it for cargo or loading",
+        "output": "Sure [CUSTOMER_NAME], the model you enquired about is generally used for goods loading, shifting, or transport. Are you looking at it for load or parcel service? Or is there some other use you have in mind?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they want to use it for passenger rides",
+        "output": "Sure [CUSTOMER_NAME], this model is commonly used for app-based rides like Ola, Uber, or Rapido. Are you planning to use it for ride-sharing? Or do you have a different usage in mind?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer says they want to use it as a share auto",
+        "output": "Sure [CUSTOMER_NAME], you had enquired about a share auto. Are you planning to run it on a passenger route?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer usage purpose is unclear",
+        "output": "Are you looking at it for commercial loading purposes? Or are you planning to use it for passenger rides?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer explains the vehicle usage purpose",
+        "output": "Okay, understood. Loan options are available for this vehicle purchase. Whether your CIBIL score is good or not, we can check your profile and help arrange a loan for you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer acknowledges loan assistance",
+        "output": "Alright. Which location are you currently in? Are you in Chennai or some other city?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer provides their location",
+        "output": "Thank you [CUSTOMER_NAME], I've noted down all your details. Our Auto Bazaar Business Development team will contact you shortly. They will clearly explain the best offers and discounts available for your location. Thank you so much for choosing Auto Bazaar. This is the path of progress for our auto drivers. Let's join hands with Auto Bazaar and reach new heights. Thank you!"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer asks about price, discount, or delivery",
+        "output": "The pricing and offer details will be shared directly by our Business Development team. You can ask them all your questions when they call you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Customer asks technical questions not mentioned",
+        "output": "Our technical team will contact you and provide more details about that."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: Credit card payment is overdue by 15 days. Customer answers the call.",
+        "output": "Hello, am I speaking with [CUSTOMER_NAME]? I'm calling from [BANK_NAME] regarding your credit card account ending in [LAST_4_DIGITS]."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer confirms identity.",
+        "output": "Thank you for confirming. I'm calling because your credit card payment of [AMOUNT] was due on [DUE_DATE] and is currently pending. Would you like to make the payment today to avoid any additional late fees?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer says they already made the payment.",
+        "output": "Thank you for letting me know. Could you share the approximate date and mode of payment? I'll check the status from our end and get it updated for you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer says they will pay later.",
+        "output": "I understand. Just so you know, a late payment may attract additional interest and could affect your credit score. Can I help you with a specific date by when you plan to make the payment?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer says they are facing financial difficulty.",
+        "output": "I completely understand, and I appreciate you sharing that. We do have options like converting your outstanding balance into easy EMIs at a lower interest rate. Would you like me to explain the EMI conversion options available for you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer agrees to EMI conversion.",
+        "output": "Great. We can convert your outstanding balance of [AMOUNT] into EMIs of 3, 6, or 12 months. Our team will call you with the exact interest rates and monthly amounts. Is that okay with you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer refuses to pay and gets angry.",
+        "output": "I understand your frustration, and I'm sorry for the inconvenience. I just want to make sure you're aware of the pending amount so we can avoid any impact on your credit score. Whenever you're ready, you can pay through our app or by calling our helpline at [HELPLINE_NUMBER]. Thank you for your time."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit card overdue call: Customer asks about the minimum amount due.",
+        "output": "Your minimum amount due is [MINIMUM_AMOUNT]. Paying at least the minimum amount by the due date will help you avoid late payment charges. However, I'd recommend paying the full outstanding amount to avoid interest charges on the remaining balance."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: Loan EMI is overdue by 30 days. Customer answers the call.",
+        "output": "Hello, am I speaking with [CUSTOMER_NAME]? I'm calling from [BANK_NAME] regarding your personal loan account [ACCOUNT_ID]."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan EMI overdue call: Customer confirms identity.",
+        "output": "Thank you. I'm calling because your loan EMI of [EMI_AMOUNT] for the month of [MONTH] is pending. The due date was [DUE_DATE]. Would you be able to make the payment soon?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan EMI overdue call: Customer says they forgot to pay.",
+        "output": "No problem at all. You can make the payment through our mobile app, net banking, or by visiting your nearest branch. Would you like me to send you a payment link via SMS?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan EMI overdue call: Customer requests a few more days.",
+        "output": "I understand. Could you give me a specific date by when you plan to make the payment? I'll make a note of it in our system so our team is informed."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan EMI overdue call: Customer asks about foreclosure.",
+        "output": "Sure. You can foreclose your loan by paying the remaining principal amount along with any applicable foreclosure charges. For the exact foreclosure amount, I'd recommend calling our helpline at [HELPLINE_NUMBER] or visiting your nearest branch."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan EMI overdue call: Customer disputes the outstanding amount.",
+        "output": "I'm sorry for the confusion. Let me note down your concern. Our accounts team will review your payment history and get back to you within 2 working days. Can I confirm your registered mobile number as [PHONE_NUMBER]?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: Insurance policy renewal is due in 7 days. Customer answers.",
+        "output": "Hello [CUSTOMER_NAME], I'm calling from [COMPANY_NAME]. Your insurance policy number [POLICY_NUMBER] is due for renewal on [RENEWAL_DATE]. I wanted to help you with the renewal process."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Insurance renewal call: Customer says they want to renew.",
+        "output": "That's great! Your renewal premium this year is [PREMIUM_AMOUNT]. You can pay via our app, net banking, or I can send you a payment link right now. Which option works best for you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Insurance renewal call: Customer says they don't want to renew.",
+        "output": "I understand. Just to let you know, if the policy lapses, you may lose the continuity benefits and any no-claim bonus you've accumulated. Would you like to speak with our advisor before making a final decision?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Insurance renewal call: Customer asks about changes in premium.",
+        "output": "Your premium may have changed based on factors like your claim history, age, or any changes in the sum insured. For a detailed breakup, I can have our advisor call you. Would that be helpful?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Insurance renewal call: Customer asks about claim process.",
+        "output": "For filing a claim, you can call our claims helpline at [HELPLINE_NUMBER] or submit it through our mobile app. Our team typically processes claims within 7 to 10 working days. Would you like me to share more details?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Insurance renewal call: Customer wants to upgrade their plan.",
+        "output": "Absolutely! We have enhanced plans with additional coverage options. I'll have our advisor call you to explain the available upgrades and the difference in premium. Is that okay?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: KYC documents need to be updated. Customer answers.",
+        "output": "Hello, am I speaking with [CUSTOMER_NAME]? I'm calling from [BANK_NAME]. This is regarding a mandatory KYC update for your account ending in [LAST_4_DIGITS]."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "KYC update call: Customer confirms identity and asks what is needed.",
+        "output": "As per RBI guidelines, we need to update your KYC documents. You'll need to provide a valid photo ID like Aadhaar or PAN, and an address proof. You can do this through our mobile app, net banking, or by visiting your nearest branch."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "KYC update call: Customer says they already submitted documents.",
+        "output": "Thank you for letting me know. There might be a processing delay on our end. Could you share the approximate date when you submitted them? I'll follow up with our team and get back to you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "KYC update call: Customer asks what happens if they don't update.",
+        "output": "If KYC is not updated within the given timeframe, your account services like fund transfers and withdrawals may be temporarily restricted as per RBI regulations. I'd recommend completing it at the earliest to avoid any inconvenience."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "KYC update call: Customer wants to do it online.",
+        "output": "Sure! You can complete your KYC update through our mobile banking app. Go to the 'My Account' section, select 'Update KYC', and upload your documents. It's quick and takes just a few minutes."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "KYC update call: Customer says they will visit the branch.",
+        "output": "That's perfectly fine. Please carry your original Aadhaar card, PAN card, and a recent passport-size photograph. Your nearest branch is open from 10 AM to 4 PM on weekdays. Is there anything else I can help you with?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: Fixed deposit maturity notification. Customer answers.",
+        "output": "Hello [CUSTOMER_NAME], I'm calling from [BANK_NAME]. Your fixed deposit of [FD_AMOUNT] bearing account number [ACCOUNT_ID] is maturing on [MATURITY_DATE]. I wanted to discuss the renewal options with you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "FD maturity call: Customer wants to renew the FD.",
+        "output": "Wonderful! Our current interest rate for the same tenure is [INTEREST_RATE] percent per annum. We also have special rates for senior citizens. Shall I go ahead and place a renewal request for you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "FD maturity call: Customer wants to withdraw the amount.",
+        "output": "Of course. The maturity amount including interest will be credited to your linked savings account on the maturity date. Would you like me to confirm the linked account number for you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "FD maturity call: Customer asks about current FD interest rates.",
+        "output": "Our current FD interest rates range from [MIN_RATE] to [MAX_RATE] percent depending on the tenure. Senior citizens get an additional [SENIOR_RATE] percent. Would you like me to share the detailed rate chart via email or SMS?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "FD maturity call: Customer wants to partially withdraw.",
+        "output": "You can do a partial withdrawal, but please note that a premature withdrawal penalty may apply. For the exact charges, I'd suggest speaking with our branch or calling our helpline at [HELPLINE_NUMBER]. Would you like me to connect you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer reports a suspicious transaction on their account.",
+        "output": "I'm sorry to hear that. Let me help you right away. Can you please confirm your full name, registered mobile number, and the last four digits of your account or card number for verification?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Fraud alert call: Customer provides verification details.",
+        "output": "Thank you for confirming. Could you please share the date, amount, and any merchant name you see for the suspicious transaction? I'll raise an immediate investigation request for you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Fraud alert call: Customer wants to block their card immediately.",
+        "output": "Absolutely, I'll block your card right away for safety. You can also block it instantly through our mobile app under 'Card Controls'. Once blocked, no further transactions will go through. Shall I proceed?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Fraud alert call: Customer asks how long the investigation will take.",
+        "output": "Our fraud investigation team typically resolves cases within 10 to 15 working days. You'll receive updates via SMS and email. If the transaction is found to be unauthorized, the amount will be reversed to your account."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Fraud alert call: Customer asks about getting a replacement card.",
+        "output": "Once your current card is blocked, we'll issue a replacement card within 5 to 7 working days. It will be delivered to your registered address. Would you like to confirm your delivery address?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: Home loan balance transfer offer. Customer answers.",
+        "output": "Hello [CUSTOMER_NAME], I'm calling from [BANK_NAME]. We have a special home loan balance transfer offer that could help you save significantly on your monthly EMI. Do you currently have a home loan with another bank?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Home loan balance transfer call: Customer confirms they have a home loan elsewhere.",
+        "output": "Great. Our balance transfer comes with an interest rate starting from [INTEREST_RATE] percent, which could be lower than what you're currently paying. Could you share your current outstanding amount and interest rate so I can check how much you could save?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Home loan balance transfer call: Customer shares their current loan details.",
+        "output": "Thank you. Based on what you've shared, you could potentially save a significant amount over the remaining tenure. I'll have our home loan specialist call you with a detailed comparison and the exact savings. Would that be alright?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Home loan balance transfer call: Customer says they are not interested.",
+        "output": "No problem at all. If you ever want to explore this option in the future, feel free to call us at [HELPLINE_NUMBER]. We're always happy to help. Thank you for your time."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Home loan balance transfer call: Customer asks about processing fees.",
+        "output": "The processing fee for a balance transfer is typically [PROCESSING_FEE] percent of the loan amount. However, we currently have a special offer with reduced processing charges. Our specialist will share the exact details when they call you."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Home loan balance transfer call: Customer asks about top-up loan.",
+        "output": "Yes, along with the balance transfer, you can also avail a top-up loan for additional funding needs like renovations or personal expenses. The top-up loan interest rate is very competitive. Shall I include this in the discussion with our specialist?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Outbound call: SIP and mutual fund cross-sell. Customer answers.",
+        "output": "Hello [CUSTOMER_NAME], I'm calling from [BANK_NAME]. I noticed you have a savings account with us and I wanted to share some investment options that could help grow your savings. Do you have a minute?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "SIP cross-sell call: Customer is interested.",
+        "output": "Wonderful! A Systematic Investment Plan or SIP allows you to invest a fixed amount regularly in mutual funds. You can start with as low as [MIN_SIP_AMOUNT] per month. Are you currently investing in any mutual funds?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "SIP cross-sell call: Customer says they don't know about SIP.",
+        "output": "No worries at all. A SIP is like a recurring deposit but for mutual funds. You invest a small amount every month, and over time it grows with the power of compounding. Our investment advisor can explain this in detail. Would you like them to call you?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "SIP cross-sell call: Customer says they are already investing elsewhere.",
+        "output": "That's great to hear! We have a wide range of mutual fund options from top fund houses with competitive returns. If you'd like to compare, our advisor can help. Would you be open to a quick discussion?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "SIP cross-sell call: Customer is not interested in investments.",
+        "output": "I completely understand. Whenever you feel ready to explore investment options, we're here to help. You can reach us anytime at [HELPLINE_NUMBER]. Thank you for your time and have a great day."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "SIP cross-sell call: Customer asks about returns and risk.",
+        "output": "Mutual fund returns depend on market performance and the type of fund you choose. We have options ranging from low-risk debt funds to high-growth equity funds. Our certified advisor can recommend the best option based on your goals and risk appetite. Shall I arrange a callback?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to activate their new debit card.",
+        "output": "Hello! I'd be happy to help you activate your debit card. For verification, could you please share your full name and the last four digits of the card number?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Debit card activation call: Customer provides details.",
+        "output": "Thank you. I've initiated the activation for your debit card ending in [LAST_4_DIGITS]. You should receive a confirmation SMS shortly. Please set your PIN using our ATM or mobile app before your first transaction."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to set up or reset their net banking.",
+        "output": "Sure, I can help you with that. Could you please share your account number or registered mobile number so I can pull up your details?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Net banking call: Customer provides account details.",
+        "output": "Thank you. I've sent a one-time password to your registered mobile number [PHONE_NUMBER]. Once verified, you can set a new login password through our website or mobile app. Would you like me to guide you through the steps?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Net banking call: Customer is unable to log in despite resetting password.",
+        "output": "I'm sorry for the trouble. This could be due to a browser cache issue or a temporary lock on your account. Let me check your account status. Could you please hold for a moment?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to update their mobile number linked to the account.",
+        "output": "Sure, I can help you with that. For security, mobile number changes need to be done at your nearest branch with a valid ID proof. You'll need to carry your Aadhaar card and PAN card. Would you like me to share your nearest branch details?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to know their account balance.",
+        "output": "I'd be happy to help. For security verification, could you please confirm your registered mobile number and date of birth? Once verified, I'll share your account balance right away."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Account balance call: Customer is verified.",
+        "output": "Thank you for the verification. Your current available balance in account ending [LAST_4_DIGITS] is [BALANCE_AMOUNT]. You can also check your balance anytime by giving a missed call to [MISSED_CALL_NUMBER] or through our mobile app. Is there anything else I can help with?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to stop a cheque.",
+        "output": "Sure, I can help you with that. Could you please share the cheque number, the amount, and the name of the payee? I'll place a stop payment request for you right away."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Stop cheque call: Customer provides cheque details.",
+        "output": "Thank you. I've placed a stop payment request for cheque number [CHEQUE_NUMBER] amounting to [AMOUNT]. Please note that a nominal charge of [STOP_CHARGE] may apply. You'll receive a confirmation SMS shortly."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to request a new cheque book.",
+        "output": "Absolutely, I can help with that. A new cheque book with 25 leaves will be dispatched to your registered address within 5 to 7 working days. Shall I confirm your current address on file?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to increase their credit card limit.",
+        "output": "I'd be happy to help. Credit card limit enhancements are subject to your spending pattern and repayment history. Let me check your eligibility. Could you please share the last four digits of your credit card?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit limit call: Customer is eligible for an increase.",
+        "output": "Great news! You're eligible for a credit limit increase up to [NEW_LIMIT]. Shall I go ahead and process this for you? The updated limit will reflect within 2 working days."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Credit limit call: Customer is not eligible.",
+        "output": "I'm sorry, but based on your current profile, a limit increase isn't available at this time. I'd suggest maintaining regular payments and usage for a few more months. We'll review your eligibility again automatically. Is there anything else I can help with?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer wants to close their savings account.",
+        "output": "I'm sorry to hear that. Before we proceed, may I know the reason for account closure? We'd like to see if there's anything we can do to address your concerns."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Account closure call: Customer insists on closing.",
+        "output": "I understand. To close your account, please visit your home branch with a valid photo ID and your debit card. Any remaining balance will be given to you via demand draft or transferred to another account. Is there anything else I can assist with before you visit the branch?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer reports ATM cash not dispensed but amount debited.",
+        "output": "I'm sorry to hear that. Let me help you right away. Could you please share the ATM location, the date and time of the transaction, and the amount? I'll raise a dispute immediately."
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "ATM dispute call: Customer provides transaction details.",
+        "output": "Thank you. I've raised a dispute for the failed ATM transaction of [AMOUNT] on [DATE]. As per RBI guidelines, the amount will be reversed to your account within 5 to 7 working days. You'll receive updates via SMS. Is there anything else I can help with?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Inbound call: Customer asks about loan eligibility.",
+        "output": "Sure, I'd be happy to help check your eligibility. Could you please share whether you're looking for a personal loan, home loan, or vehicle loan? Also, are you salaried or self-employed?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan eligibility call: Customer says personal loan and salaried.",
+        "output": "For a salaried individual, personal loan eligibility depends on your monthly income, employer, and existing obligations. Could you share your approximate monthly salary and whether you have any existing EMIs?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "Loan eligibility call: Customer provides salary and EMI details.",
+        "output": "Thank you. Based on the details you've shared, you may be eligible for a personal loan up to [ELIGIBLE_AMOUNT] at an interest rate starting from [INTEREST_RATE] percent. Our loan officer will call you to guide you through the application process. Is that alright?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer asks to speak to a manager.",
+        "output": "I understand your concern. Let me connect you with a senior representative who can better assist you. May I please place you on a brief hold while I transfer the call?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer is very upset and venting frustration.",
+        "output": "I'm really sorry for the experience you've had. I completely understand your frustration, and I want to assure you that I'll do my best to resolve this for you. Could you please share the details of the issue so I can look into it right away?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer thanks the agent and ends the call.",
+        "output": "You're most welcome! If you ever need assistance in the future, don't hesitate to call us. Have a wonderful day. Goodbye!"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer asks about interest certificate for tax filing.",
+        "output": "Sure! You can download your interest certificate from our net banking portal under the 'Statements & Certificates' section. Alternatively, I can have it sent to your registered email address. Which option would you prefer?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer wants to register for mobile banking.",
+        "output": "I'd be happy to help! You can download our mobile banking app from the Play Store or App Store and register using your account number and registered mobile number. You'll receive an OTP for verification. Would you like me to walk you through the steps?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer asks about NEFT/RTGS/IMPS transfer limits.",
+        "output": "Sure! For NEFT, there is no minimum or maximum limit. RTGS starts at a minimum of two lakh rupees. IMPS allows transfers up to five lakh rupees per transaction. These can all be done through net banking or our mobile app. Would you like help with a transfer?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer wants to link their Aadhaar to their bank account.",
+        "output": "You can link your Aadhaar through our mobile app, net banking, or by visiting your nearest branch with your original Aadhaar card. If you'd like to do it online, I can guide you through the steps right now. What would you prefer?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer asks about locker facility.",
+        "output": "We do offer safe deposit locker facilities at select branches. Availability depends on the branch and locker size. I can check availability at your nearest branch. Could you share your preferred branch location?"
+    },
+    {
+        "instruction": "Respond as a polite English-speaking banking customer support agent",
+        "input": "General: Customer wants to set up a standing instruction for recurring payments.",
+        "output": "Sure! We can set up a standing instruction for automatic payments like rent, insurance premiums, or SIP amounts. I'll need the beneficiary details, amount, frequency, and start date. Would you like to proceed?"
+    }
+]

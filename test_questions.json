@@ -1,0 +1,42 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is KYC and why is it required in banking?"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the difference between a savings account and a current account?"
+    },
+    {
+        "id": "Q3",
+        "question": "What is a credit score and why is it important?"
+    },
+    {
+        "id": "Q4",
+        "question": "What is EMI in a loan?"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the purpose of insurance?"
+    },
+    {
+        "id": "Q6",
+        "question": "Why do banks require identity verification before account opening?"
+    },
+    {
+        "id": "Q7",
+        "question": "How is EMI calculated for a personal loan?"
+    },
+    {
+        "id": "Q8",
+        "question": "What happens if I miss an EMI payment?"
+    },
+    {
+        "id": "Q9",
+        "question": "How can I improve my credit score?"
+    },
+    {
+        "id": "Q10",
+        "question": "What is the difference between term insurance and health insurance?"
+    }
+]
