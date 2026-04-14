@@ -1,4 +1,4 @@
-# slm-comparative-evaluation
+## SLM Comparative Evaluation
 
 This repository presents a structured comparative evaluation of three Small Language Models (SLMs):
 
