@@ -8,7 +8,7 @@ This repository presents a structured comparative evaluation of three Small Lang
   
 All models were tested using a common dataset.json file containing structured test questions. Their responses were generated, collected, and evaluated systematically to determine which model performs best under controlled testing conditions.
 
-### 🔶 Objective
+### 🔸 Objective
 
 The primary goal of this project is to:
 
